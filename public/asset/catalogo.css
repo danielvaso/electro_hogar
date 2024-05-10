@@ -1,0 +1,85 @@
+/*globales */ 
+*::after,
+*::before
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans';
+}
+body{
+    
+    max-width: 1200px;
+    font-family: 'lato';
+    color: #333 ;
+}
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+}
+
+img{
+    max-width: 100px;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 30px 0;
+    background-color: blue;
+    color: aliceblue;
+    
+}
+/* main */
+.container-items{
+    display: flex;
+   text-align: center;
+   transition: .5s ease;
+   margin: 20px;
+   gap: 30px;
+   grid-auto-columns: 3;
+}
+.container-items1{
+    display: flex;
+   text-align: center;
+   transition: .5s ease;
+   margin: 20px;
+   gap: 20px;
+   grid-auto-columns: 3;
+   }
+   form{
+    text-align: center;
+   }
+   .item{
+    border-radius: 10px;
+   }
+   .item:hover{
+    box-shadow: 0 10px 20px;
+   }
+
+.item img{ 
+    width: 100%;
+    height: 300px;
+    object-fit:cover ;
+   }
+.item :hover img{
+    transform: scale(1.2);
+    }
+
+    button{
+        color: aliceblue;
+        background-color: black;
+        cursor: pointer;
+        flex-direction: column;
+        }
+.buscar{
+    margin-left: 65%;
+}
+   
+
+
+
+    
+

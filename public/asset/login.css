@@ -1,0 +1,97 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css";
+body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    background-image: url("../assets/images/electrodo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logolyf {
+    padding-right: 1rem;
+}
+
+#logo {
+    width: 320px;
+    height: 170px;
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+.auth img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.auth .content {
+    padding: 40px;
+    border: 1px solid #535252;
+    border-radius: 10px;
+    background-color: #ffffffd1;
+    position: relative;
+}
+
+.home {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.home a {
+    text-decoration: none;
+    color: #000000;
+}
+.home a:hover {
+    text-decoration: underline;
+}
+.auth .regirecup{
+    display: flex;
+}
+.auth .recover-password {
+    margin-top: 20px;
+    align-self: self-end;
+}
+
+.auth .recover-password > a {
+    justify-content: end;
+    text-decoration: none;
+    color: #000000;
+}
+
+.auth .recover-password > a:hover {
+    text-decoration: underline;
+}
+
+.auth .button-access {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smk-error-msg {
+    color: #a94442 !important;
+}
+
+
+/* .recover-password{
+    justify-content: end;
+    align-content: flex-end;
+    margin: 0 0 0 100px;
+    padding: 1rem;
+} */
+
